@@ -1,0 +1,171 @@
+/* CSS for navigation menu */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: #389662;
+
+    .name{
+        padding-top: 20px;
+        background-color: #31493C;
+        text-align: center;
+    }
+  }
+  nav {
+    background-color: #31493C;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .menu > li {
+    display: inline-block;
+  }
+  
+  .menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: #98E3BA;
+    text-decoration: none;
+  }
+  
+  .menu > li:hover {
+    background-color: #555;
+    border-radius: 22px;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #31493C;
+    z-index: 1;
+  }
+  
+  .submenu li {
+    display: block;
+  }
+  
+  .menu > li:hover .submenu {
+    display: block;
+    border-radius: 22px;
+  }
+  
+  .submenu li a {
+    padding: 10px 20px;
+    color: #98E3BA;
+    text-decoration: none;
+  }
+  
+  .submenu li:hover {
+    background-color: #555;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    float: left;
+    padding-left: 10px;
+  }
+/*   
+  nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-menu li a:hover {
+    color: #ff0000;} */
+  
+  /* CSS for content section */
+  .content {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .content img {
+    max-width: 250px;
+    max-height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .content h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+  
+  /* Existing CSS code */
+
+/* CSS for content1 */
+.content1 {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin: 0 20% 80px 20%;
+  }
+  
+  .column {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  /* CSS for footer */
+  footer {
+    color: #98E3BA;
+    background-color: #31493C;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons {
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    color: #98E3BA;
+    font-size: 20px;
+     }
